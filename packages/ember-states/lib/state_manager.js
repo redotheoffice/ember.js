@@ -594,7 +594,7 @@ Ember.StateManager = Ember.State.extend(
   transitionEvent: 'setup',
 
   /**
-    If set to true, `errorOnUnhandledEvents` will cause an exception to be
+    If set to true, `errorOnUnhandledEvent` will cause an exception to be
     raised if you attempt to send an event to a state manager that is not
     handled by the current state or any of its parent states.
 
